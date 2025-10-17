@@ -1,0 +1,159 @@
+{
+  "originHash" : "35e1be820564acbc5ff0bbf92e24e891d75f631c0b76e4fafe79f8d7860a98ca",
+  "pins" : [
+    {
+      "identity" : "adjust_signature_sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adjust/adjust_signature_sdk.git",
+      "state" : {
+        "revision" : "a84f08b41f7e38624815816f6e93cadc9ea22a92",
+        "version" : "3.47.0"
+      }
+    },
+    {
+      "identity" : "agorartcengine_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
+      "state" : {
+        "revision" : "75d5b9ce6e3676c1e6efaf91fbdfaafb8d20daa6",
+        "version" : "4.3.0"
+      }
+    },
+    {
+      "identity" : "agorartm_apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraRtm_Apple.git",
+      "state" : {
+        "branch" : "2.2.5_lite",
+        "revision" : "442aa74e8fa356a6efeadec93878c6e4e083dd2a"
+      }
+    },
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "ckstar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LKstoreReady/CKStar",
+      "state" : {
+        "revision" : "519233259bfd4d2b4fd863459070df433858323b",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "e45a26384239e028ec87fbcc788f513b67e10d8f",
+        "version" : "1.9.0"
+      }
+    },
+    {
+      "identity" : "facebook-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/facebook-ios-sdk",
+      "state" : {
+        "revision" : "c19607d535864533523d1f437c84035e5fb101cf",
+        "version" : "14.1.0"
+      }
+    },
+    {
+      "identity" : "google-ads-on-device-conversion-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/google-ads-on-device-conversion-ios-sdk.git",
+      "state" : {
+        "revision" : "2ba031f43ef88a7f6631c84d23794eb99751e891",
+        "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "googleutilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleUtilities.git",
+      "state" : {
+        "revision" : "60da361632d0de02786f709bdc0c4df340f7613e",
+        "version" : "8.1.0"
+      }
+    },
+    {
+      "identity" : "ios_sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adjust/ios_sdk",
+      "state" : {
+        "revision" : "517f44c723856ab578e9186b0e24095085cd29bb",
+        "version" : "5.4.5"
+      }
+    },
+    {
+      "identity" : "mjrefresh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CoderMJLee/MJRefresh",
+      "state" : {
+        "revision" : "535d39c86e592d73f8b8e75f9bf1eda62ca4a4ce",
+        "version" : "3.7.9"
+      }
+    },
+    {
+      "identity" : "nanopb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/nanopb.git",
+      "state" : {
+        "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+        "version" : "2.30910.0"
+      }
+    },
+    {
+      "identity" : "nkworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LKstoreReady/NKWorking",
+      "state" : {
+        "revision" : "051cbbaebcca87e5a0d65df40a01ae1a4dc9400a",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "rongcloudim-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rongcloud/RongCloudIM-iOS",
+      "state" : {
+        "revision" : "199f6b318c5c5c8a372a55f351cab0da9beb6c75",
+        "version" : "5.24.2"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "2053b120767c42a70bcba21095f34e4cfb54a75d",
+        "version" : "5.21.3"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "ttlbgenerals",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LKstoreReady/TTLBGenerals",
+      "state" : {
+        "revision" : "298a8b80b22f0b6a5357efb33b999759efdb52b3",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
