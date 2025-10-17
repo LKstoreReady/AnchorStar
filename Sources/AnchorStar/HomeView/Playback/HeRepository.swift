@@ -89,6 +89,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
             iSuppressAnimations.permissionsToRequest { array in
                                 
                 if self.tabBarController?.selectedIndex == 0 {
+                    print("`````````````````wall reload section 2")
                     self.xSelfBounds = HeArgumentsFeature.performBlockAndWait(array)
                     if self.xSelfBounds.count < 2 {
                         self.xSelfBounds = NSArray()
@@ -175,25 +176,51 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
 
     }
     func firstNewLaterSectionIndex() {
-        if HeExecuteDelete.iRemindersB.tDeveloperPayload == true {
-            if kHeightMapsrc == nil {
-                kHeightMapsrc = UIView()
-                kHeightMapsrc.frame = CGRectMake(aFullIntersection - 50, nMagnetVoid - UIDevice.recoveredErrors() - 96 - 50 - 30, 50, 50)
-                wBackgroundQueue.setDecimalFormatSymbols(kHeightMapsrc,0, "concatenated_darwinios_exlen")
+        if let greeting = UserDefaults.standard.string(forKey: "prepaid_wintergreen") {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {[weak self] in
+                guard let self = self else { return }
+                 if HeExecuteDelete.iRemindersB.tDeveloperPayload == true {
+                    if kHeightMapsrc == nil {
+                        kHeightMapsrc = UIView()
+                        kHeightMapsrc.frame = CGRectMake(aFullIntersection - 50, nMagnetVoid - UIDevice.recoveredErrors() - 96 - 50 - 30, 50, 50)
+                        wBackgroundQueue.setDecimalFormatSymbols(kHeightMapsrc,0, "concatenated_darwinios_exlen")
+                                        
+                        let eActorLocation = UITapGestureRecognizer(target: self, action: #selector(outputDeviceLabelsIds))
+                        kHeightMapsrc.addGestureRecognizer(eActorLocation)
+                        view.addSubview(kHeightMapsrc)
+                    }
+                    wBackgroundQueue.updateContentsForConfirmPay(kHeightMapsrc)
                                 
-                let eActorLocation = UITapGestureRecognizer(target: self, action: #selector(outputDeviceLabelsIds))
-                kHeightMapsrc.addGestureRecognizer(eActorLocation)
-                view.addSubview(kHeightMapsrc)
+                }else {
+                    wBackgroundQueue.setIntervalPattern(kHeightMapsrc)
+                    kHeightMapsrc = nil
+                }
+                if HeExecuteDelete.iRemindersB.hPszText < 1 {
+                    kHeightMapsrc?.isHidden = true
+                }
             }
-            wBackgroundQueue.updateContentsForConfirmPay(kHeightMapsrc)
-                        
-        }else {
-            wBackgroundQueue.setIntervalPattern(kHeightMapsrc)
-            kHeightMapsrc = nil
+        } else {
+            if HeExecuteDelete.iRemindersB.tDeveloperPayload == true {
+                if kHeightMapsrc == nil {
+                    kHeightMapsrc = UIView()
+                    kHeightMapsrc.frame = CGRectMake(aFullIntersection - 50, nMagnetVoid - UIDevice.recoveredErrors() - 96 - 50 - 30, 50, 50)
+                    wBackgroundQueue.setDecimalFormatSymbols(kHeightMapsrc,0, "concatenated_darwinios_exlen")
+                                    
+                    let eActorLocation = UITapGestureRecognizer(target: self, action: #selector(outputDeviceLabelsIds))
+                    kHeightMapsrc.addGestureRecognizer(eActorLocation)
+                    view.addSubview(kHeightMapsrc)
+                }
+                wBackgroundQueue.updateContentsForConfirmPay(kHeightMapsrc)
+                            
+            }else {
+                wBackgroundQueue.setIntervalPattern(kHeightMapsrc)
+                kHeightMapsrc = nil
+            }
+            if HeExecuteDelete.iRemindersB.hPszText < 1 {
+                kHeightMapsrc?.isHidden = true
+            }
         }
-        if HeExecuteDelete.iRemindersB.hPszText < 1 {
-            kHeightMapsrc?.isHidden = true
-        }
+         
     }
     @objc func includeFirstState() {
         if HeExecuteDelete.iRemindersB.vRawColors == true {return}
@@ -260,6 +287,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
                 fEnsureObserved.vHasGroove = xBiSubstack?.width ?? 52
                 self.kCustomValue.append(fEnsureObserved)
             }
+            print("`````````````````wall reload section 1")
             CATransaction.begin()
             CATransaction.setDisableActions(true)
             self.wAlreadyMounted.reloadData()
@@ -462,6 +490,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
         gPrintProperties.reloadData()
     }
     @objc func willDisplayNode() {
+        print("`````````````````wall reload section 0")
         if lGetLife != nil {
             CATransaction.begin()
             CATransaction.setDisableActions(true)
@@ -482,6 +511,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
             nCompositeKey.removeAllObjects()
                     
             bMdiSpray.removeAll()
+            print("`````````````````wall reload section 333")
             CATransaction.begin()
             CATransaction.setDisableActions(true)
             self.wAlreadyMounted.reloadData()
@@ -521,6 +551,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
                 self.kRunThread = 1
                 self.cItemInserted = mdl.gInsertUpdate!
                 self.requestAndDeniedPermissions(true)
+                print("`````````````````wall reload section 33")
                 CATransaction.begin()
                 CATransaction.setDisableActions(true)
                 self.wAlreadyMounted.reloadData()
@@ -652,7 +683,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
                     }
                     nCreateFn.resultBundleDelegate = self
                     nCreateFn.mCollapsingToolbar = 0
-                    xLoggerQueue = false 
+                    xLoggerQueue = false
                     return nCreateFn
                 }else if indexPath.section == 1 {
                                         

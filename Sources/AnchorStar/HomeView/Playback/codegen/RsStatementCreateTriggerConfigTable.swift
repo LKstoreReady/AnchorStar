@@ -12,10 +12,7 @@ class RsStatementCreateTriggerConfigTable: HeSwitchPlayer {
         
     override func parseResizeMode() {
                 
-        zExtendsType.backgroundColor = GettingColors("color_stringquote")
         rMockAudio = true
-        hIsTranslator.text = roundPriceChange("knob_hua_publishing")
-        hIsTranslator.textColor = GettingColors("color_besonderem")
         zExtendsType.height = 425
         sOutWindow = CGSize(width: aFullIntersection - 32, height: 46)
         hServerFingerprint = 16
@@ -27,6 +24,12 @@ class RsStatementCreateTriggerConfigTable: HeSwitchPlayer {
     }
         
     internal func maxToOut(_ aConvertUnicode:String){
+        zExtendsType.backgroundColor = GettingColors("color_stringquote")
+        hIsTranslator.textColor = GettingColors("color_besonderem")
+        zExtendsType.backgroundColor = GettingColors("color_stringquote")
+
+        hIsTranslator.text = roundPriceChange("knob_hua_publishing")
+
         if uGestureMode.count == 0 {
             updateIndexPaths()
         }
