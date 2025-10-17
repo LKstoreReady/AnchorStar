@@ -16,8 +16,8 @@ let package = Package(
             targets: ["AnchorStar"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/LKstoreReady/CKStar", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/LKstoreReady/CKStar", .upToNextMajor(from: "1.0.2")),
+        .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.2")),
         .package(url: "https://github.com/LKstoreReady/NKWorking", .upToNextMajor(from: "1.0.1")),
         .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", branch: "2.2.5_lite"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.10.2")),

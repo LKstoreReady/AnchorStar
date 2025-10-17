@@ -1,5 +1,5 @@
 {
-  "originHash" : "35e1be820564acbc5ff0bbf92e24e891d75f631c0b76e4fafe79f8d7860a98ca",
+  "originHash" : "c33e8d33e38f8a6751c7ce8c50a4a61ffc761fbc96ef105434569e743b43acac",
   "pins" : [
     {
       "identity" : "adjust_signature_sdk",
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/CKStar",
       "state" : {
-        "revision" : "519233259bfd4d2b4fd863459070df433858323b",
-        "version" : "1.0.0"
+        "revision" : "120352ce912115318786377b73bf5ca29aeebf2a",
+        "version" : "1.0.2"
       }
     },
     {
@@ -150,8 +150,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/TTLBGenerals",
       "state" : {
-        "revision" : "298a8b80b22f0b6a5357efb33b999759efdb52b3",
-        "version" : "1.0.0"
+        "revision" : "d79f4c8ae7857c9a4f1d5a1164741b3c3e2f0b8a",
+        "version" : "1.0.2"
       }
     }
   ],
