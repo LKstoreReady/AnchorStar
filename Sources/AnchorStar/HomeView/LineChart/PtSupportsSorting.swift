@@ -21,7 +21,6 @@ class PtSupportsSorting: UITableViewCell {
 
     deinit {
         wBackgroundQueue.domainRejectSet(lSetConsent)
-        print("```````````````````````````PtSupportsSorting deinit")
     }
         
 
@@ -34,7 +33,6 @@ class PtSupportsSorting: UITableViewCell {
         
     internal func indexSessionHeaders(_ oBundledPath:PtRangeGenerator,_ strId:Int){
         hAvatarMap = strId
-        print("```````````````````````````PtSupportsSorting add svga -1")
         kSendJavascript = oBundledPath
 
         eDragDrop.matCurrencyExchange(oBundledPath.zFormattedString)

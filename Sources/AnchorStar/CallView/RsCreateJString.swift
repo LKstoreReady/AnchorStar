@@ -18,10 +18,7 @@ public class RsCreateJString: UIView {
     @IBOutlet weak var sSortedLayers: UIButton!
     @IBOutlet weak var zPrecomputedItems: UIButton!
         
-        
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
+      
         
     var uPrepareImages = {}
         

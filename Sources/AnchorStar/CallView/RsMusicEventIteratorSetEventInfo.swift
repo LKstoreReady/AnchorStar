@@ -26,9 +26,6 @@ class RsMusicEventIteratorSetEventInfo: NSObject {
         
         
         
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
         
     override init() {
         super.init()

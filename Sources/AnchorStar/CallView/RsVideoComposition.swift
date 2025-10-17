@@ -101,9 +101,8 @@ class RsVideoComposition: NSObject {
             "".fadeToBlack("timc_avanzate", "")
         }
     }
-    func CCC_downData_D(){
-                
-    }
+    
+    
     func prepareViewForRendering(_ url : String, _ suc: ((_ req : Any)->Void)?, fail:@escaping (_ msg : String)->Void) {
         iSuppressAnimations.symRoundedBackgroundGridSmall(url) { [weak self] string in
             guard let self = self else {return}

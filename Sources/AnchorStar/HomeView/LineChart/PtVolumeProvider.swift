@@ -9,9 +9,6 @@ class PtVolumeProvider: UITableViewCell {
         
         
         
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
         
     @IBAction func dynamicLinkToWritableMap(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected

@@ -13,7 +13,6 @@ class PtSyncSubscriptionStateSuperseded: UICollectionViewCell {
         
         
     internal func matSystemUpdateAlt(_ oBundledPath:PtToolStripItemPlacement){
-        print("url==" + (oBundledPath.iGetFacets ?? ""))
         lStreamIndex.getStatusBarHeight(oBundledPath.iGetFacets!)
     }
 }

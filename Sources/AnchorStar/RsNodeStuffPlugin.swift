@@ -19,7 +19,6 @@ class RsNodeStuffPlugin: NSObject {
         
         
     class func orderFrontColorPanel() {
-        print("关闭直播语聊的小窗")
         "".fadeToBlack("redigeraren_projetos_diederik", "")
         "".fadeToBlack("oldalhoz_watson", "")
     }

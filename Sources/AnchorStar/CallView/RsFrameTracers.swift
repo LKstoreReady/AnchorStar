@@ -1,7 +1,7 @@
 
 import UIKit
 import AgoraRtcKit
-import Taleo_General
+import TTLBGenerals
 
 
 
@@ -10,10 +10,7 @@ class HeFontConfiguration: HeGetEncoder {
         
         
         
-        
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
+       
         
         
     class func getAxisTop(_ leave:@escaping (_ type : Int)->Void) {

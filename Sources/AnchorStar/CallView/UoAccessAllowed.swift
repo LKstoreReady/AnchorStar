@@ -328,7 +328,6 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
     }
     func rangeOfComposedCharacterSequenceAtIndex() {
         let tLegacyReference = AgoraVideoEncoderConfiguration(size: AgoraVideoDimension640x360, frameRate: AgoraVideoFrameRate.fps15, bitrate: AgoraVideoBitrateStandard, orientationMode: AgoraVideoOutputOrientationMode.adaptative, mirrorMode: AgoraVideoMirrorMode.auto)
-        let aaa = iErrnoException?.setVideoEncoderConfiguration(tLegacyReference)
                 
                 
         let vUnloadPressed = AgoraCameraCapturerConfiguration()
@@ -725,7 +724,6 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         }
     }
     @objc func optimalPictureSize() {
-        print("```````````````````````````````取消拨打")
         alsoPrefetchToMemory("1001")
     }
     @objc func getModuleNamespaceObject() {
@@ -738,7 +736,6 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         zHeightMap?.functionNameScopeIsDynamic()
     }
     @objc func parseAmbiguousDatesAsAfter() {
-        print("```````````````````````````````")
         newSortDirection()
     }
         

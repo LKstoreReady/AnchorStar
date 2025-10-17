@@ -8,10 +8,6 @@ class HeLayerColorOccludeBug: UIView {
         
         
         
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
-        
         
         
     @IBInspectable var currentPage: Int = 0 {

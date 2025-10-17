@@ -1,6 +1,6 @@
 
 import UIKit
-import Taleo_General
+import TTLBGenerals
 import AgoraRtcKit
 
 class RsSetVisible: UICollectionViewCell {

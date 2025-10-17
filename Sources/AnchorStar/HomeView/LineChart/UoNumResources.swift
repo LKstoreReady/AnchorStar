@@ -45,7 +45,6 @@ class UoNumResources: HeGetRelativePointerIndex,UITableViewDataSource,UITableVie
         super.inflateGetDictionary()
         iToneMapping?.didChangeToStateComplete()
         iToneMapping = nil
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
         capturedStatusBarProperties()
         qFriendRelationship?.delegate = nil
         qFriendRelationship?.dataSource = nil

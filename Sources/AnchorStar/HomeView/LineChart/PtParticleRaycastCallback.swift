@@ -1,6 +1,6 @@
 
 import UIKit
-import Taleo_mine
+import CKStar
 import AVFoundation
 
 
@@ -59,7 +59,6 @@ class PtParticleRaycastCallback: UITableViewCell {
         
         
     override func prepareForReuse() {
-        print("``````````````````````````",String(describing: type(of: self))," ` prepare")
         capturedStatusBarProperties()
         gSettingWidth?.pause()
         gSettingWidth = nil
@@ -75,7 +74,6 @@ class PtParticleRaycastCallback: UITableViewCell {
     }
         
     deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
         capturedStatusBarProperties()
         gSettingWidth = nil
         aAddAllocator = false
@@ -95,7 +93,6 @@ class PtParticleRaycastCallback: UITableViewCell {
         wBackgroundQueue.canGetCodeOrigin(aGroupID)
         dCallbackManager?.removeFromSuperview()
         dCallbackManager = nil
-        print("``````````````````````````",String(describing: type(of: self))," ` remove")
         wExitReason?.removeFromSuperlayer()
         wExitReason = nil
         gSettingWidth?.pause()
@@ -191,10 +188,8 @@ class PtParticleRaycastCallback: UITableViewCell {
         if self.aAddAllocator == false {
             wNoMatch.isHidden = false
         }
-        print("````````````````````````开始下载",str)
         iSuppressAnimations.symRoundedBackgroundGridSmall(str as String) { [weak self] string in
             guard let self = self else {return}
-            print("````````````````````````下载完成",str)
             if string.count > 0 {
                 if self.gSettingWidth == nil {
                     self.gSettingWidth = AVPlayer(url: NSURL(fileURLWithPath: string) as URL)
@@ -210,7 +205,6 @@ class PtParticleRaycastCallback: UITableViewCell {
                 self.wNoMatch.isHidden = true
                 if self.aAddAllocator == false {
                     self.gSettingWidth!.play()
-                    print("``````````````````````video play1")
                 }
                 aAddAllocator = true
             }
@@ -219,11 +213,9 @@ class PtParticleRaycastCallback: UITableViewCell {
     @objc func clientTruthPath() {
         self.gSettingWidth?.seek(to: CMTimeMake(value : 0, timescale: 1))
         self.gSettingWidth?.play()
-        print("``````````````````````video play2")
     }
     func enableAutoSetupValue() {
         if self.gSettingWidth != nil {
-            print("``````````````````````video end play ")
             self.gSettingWidth!.pause()
             self.gSettingWidth = nil
             aAddAllocator = false
@@ -232,7 +224,6 @@ class PtParticleRaycastCallback: UITableViewCell {
     func getLogLevel() {
         if aAddAllocator == false {
             gSettingWidth?.play()
-            print("``````````````````````video play3")
         }
     }
         

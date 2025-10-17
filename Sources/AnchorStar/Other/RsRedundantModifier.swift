@@ -47,10 +47,6 @@ class RsRedundantModifier: HeFullClassName {
         
         
         
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
-        
         
         
     @objc func verifyDownEventObtained() {

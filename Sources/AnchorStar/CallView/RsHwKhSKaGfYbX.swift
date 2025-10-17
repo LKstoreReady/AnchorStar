@@ -1,7 +1,7 @@
 
 import UIKit
 import AVFAudio
-import Taleo_General
+import TTLBGenerals
 import AgoraRtcKit
 
 class RsHwKhSKaGfYbX: UIView {

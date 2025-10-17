@@ -1,9 +1,9 @@
 
 import UIKit
 
-@_exported import Taleo_General
-@_exported import Taleo_mine
-@_exported import Package_net
+@_exported import TTLBGenerals
+@_exported import CKStar
+@_exported import NKWorking
 
 func roundPriceChange(_ key : String) -> String {
     return HeLoadPaletted.webViewClientInstanceId(key)

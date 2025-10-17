@@ -1,17 +1,12 @@
 
 import UIKit
-import Taleo_General
+import TTLBGenerals
 
 class PtYsfZtvTpU: UITableViewCell,UICollectionViewDelegate,UICollectionViewDataSource {
     let uClearResult = (aFullIntersection - 32 - 16) / 3
         
         
         
-        
-        
-    deinit {
-        print("``````````````````````````",String(describing: type(of: self))," ` deinit")
-    }
         
         
         
