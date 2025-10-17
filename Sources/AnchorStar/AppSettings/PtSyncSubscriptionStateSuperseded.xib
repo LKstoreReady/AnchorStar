@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtSyncSubscriptionStateSuperseded" customModule="WallCall">
+            <rect key="frame" x="0.0" y="0.0" width="142" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="142" height="117"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mpu-DM-YMX">
+                        <rect key="frame" x="0.0" y="0.0" width="142" height="117"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="blacksquare_constitutes_gorilla"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sg5-sa-taB">
+                        <rect key="frame" x="0.0" y="0.0" width="142" height="117"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nA2-97-Ldw">
+                                <rect key="frame" x="60.666666666666657" y="48.666666666666664" width="21" height="19.999999999999993"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="conducted_pwrite_fontvariant"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nA2-97-Ldw" firstAttribute="centerX" secondItem="Sg5-sa-taB" secondAttribute="centerX" id="aky-Su-cCJ"/>
+                            <constraint firstItem="nA2-97-Ldw" firstAttribute="centerY" secondItem="Sg5-sa-taB" secondAttribute="centerY" id="tCW-T3-Kkh"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Mpu-DM-YMX" secondAttribute="trailing" id="5AC-mJ-ZOq"/>
+                <constraint firstAttribute="bottom" secondItem="Sg5-sa-taB" secondAttribute="bottom" id="7Yr-8o-C5y"/>
+                <constraint firstItem="Mpu-DM-YMX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J67-rh-e8C"/>
+                <constraint firstItem="Mpu-DM-YMX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NGx-Iu-c9U"/>
+                <constraint firstAttribute="trailing" secondItem="Sg5-sa-taB" secondAttribute="trailing" id="UtN-13-5he"/>
+                <constraint firstItem="Sg5-sa-taB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Z33-FU-mIb"/>
+                <constraint firstItem="Sg5-sa-taB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hnK-eT-pPK"/>
+                <constraint firstAttribute="bottom" secondItem="Mpu-DM-YMX" secondAttribute="bottom" id="wDy-bX-gj5"/>
+            </constraints>
+            <size key="customSize" width="142" height="117"/>
+            <connections>
+                <outlet property="cCopyInformation" destination="Sg5-sa-taB" id="sJn-MU-O8P"/>
+                <outlet property="tSetElevation" destination="nA2-97-Ldw" id="9hU-a7-yZA"/>
+                <outlet property="lStreamIndex" destination="Mpu-DM-YMX" id="gPx-do-K3f"/>
+            </connections>
+            <point key="canvasLocation" x="200" y="12.323943661971832"/>
+        </collectionViewCell>
+    </objects>
+</document>
