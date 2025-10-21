@@ -1,5 +1,5 @@
 {
-  "originHash" : "c33e8d33e38f8a6751c7ce8c50a4a61ffc761fbc96ef105434569e743b43acac",
+  "originHash" : "0e06b1d3d2311548bca8d86fee6ef6bd99543b915ea2e60dddc5ad77a1907205",
   "pins" : [
     {
       "identity" : "adjust_signature_sdk",
@@ -11,12 +11,21 @@
       }
     },
     {
+      "identity" : "agorainfra_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraInfra_iOS.git",
+      "state" : {
+        "revision" : "0071cecee99160f056c943ee6bfca06685ffa3d7",
+        "version" : "1.3.0"
+      }
+    },
+    {
       "identity" : "agorartcengine_ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
       "state" : {
-        "revision" : "75d5b9ce6e3676c1e6efaf91fbdfaafb8d20daa6",
-        "version" : "4.3.0"
+        "revision" : "c1224ad3e316db15a4ac48a6ff08208f7bcf5238",
+        "version" : "4.6.0"
       }
     },
     {
@@ -150,8 +159,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/TTLBGenerals",
       "state" : {
-        "revision" : "d79f4c8ae7857c9a4f1d5a1164741b3c3e2f0b8a",
-        "version" : "1.0.2"
+        "revision" : "6805b6640dbb3ce218c63393fb3bf48248edce38",
+        "version" : "1.0.3"
       }
     }
   ],
