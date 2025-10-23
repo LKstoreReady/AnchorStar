@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="145" id="KGk-i7-Jjw" customClass="PtIsStyleAttributeDefined" customModule="WallCall">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="145" id="KGk-i7-Jjw" customClass="PtIsStyleAttributeDefined" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="324" height="145"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -107,10 +107,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="jRegisterInfo" destination="W2r-nO-QXq" id="Uoy-Zx-NKQ"/>
                 <outlet property="fCooperBlack" destination="LSv-Rv-VvT" id="lbc-WW-bEh"/>
-                <outlet property="qWhereArgs" destination="C5Y-OL-XLa" id="OYa-ln-J72"/>
+                <outlet property="jRegisterInfo" destination="W2r-nO-QXq" id="Uoy-Zx-NKQ"/>
                 <outlet property="lAddZone" destination="2H0-2e-KHV" id="oIi-47-LVM"/>
+                <outlet property="qWhereArgs" destination="C5Y-OL-XLa" id="OYa-ln-J72"/>
             </connections>
             <point key="canvasLocation" x="132.82442748091603" y="25"/>
         </tableViewCell>

@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtSyncSubscriptionStateSuperseded" customModule="WallCall">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtSyncSubscriptionStateSuperseded" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="142" height="117"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -64,8 +64,8 @@
             <size key="customSize" width="142" height="117"/>
             <connections>
                 <outlet property="cCopyInformation" destination="Sg5-sa-taB" id="sJn-MU-O8P"/>
-                <outlet property="tSetElevation" destination="nA2-97-Ldw" id="9hU-a7-yZA"/>
                 <outlet property="lStreamIndex" destination="Mpu-DM-YMX" id="gPx-do-K3f"/>
+                <outlet property="tSetElevation" destination="nA2-97-Ldw" id="9hU-a7-yZA"/>
             </connections>
             <point key="canvasLocation" x="200" y="12.323943661971832"/>
         </collectionViewCell>

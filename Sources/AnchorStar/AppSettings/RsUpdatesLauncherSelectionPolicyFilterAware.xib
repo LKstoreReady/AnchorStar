@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RsUpdatesLauncherSelectionPolicyFilterAware" customModule="WallCall">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RsUpdatesLauncherSelectionPolicyFilterAware" customModule="AnchorStar">
             <connections>
                 <outlet property="gChildIdent" destination="iYu-qP-hCg" id="PLX-55-rnl"/>
-                <outlet property="tStartExpectation" destination="zIJ-Dm-Vbf" id="eOI-xf-7g3"/>
-                <outlet property="sViewPort" destination="8vV-Rk-Gp3" id="ukh-vg-bRa"/>
-                <outlet property="tMenuSession" destination="iN0-l3-epB" id="lys-9R-f5q"/>
                 <outlet property="kSharpCollections" destination="AO1-YY-B2c" id="XVZ-1S-xCh"/>
                 <outlet property="lThisArg" destination="fa1-DK-kNi" id="M0Y-g5-FLk"/>
-                <outlet property="sSortedLayers" destination="gcU-Rk-iUL" id="406-RZ-3qs"/>
                 <outlet property="pFillAlpha" destination="jBW-rV-XgI" id="bbQ-x4-y6H"/>
+                <outlet property="sSortedLayers" destination="gcU-Rk-iUL" id="406-RZ-3qs"/>
+                <outlet property="sViewPort" destination="8vV-Rk-Gp3" id="ukh-vg-bRa"/>
+                <outlet property="tMenuSession" destination="iN0-l3-epB" id="lys-9R-f5q"/>
+                <outlet property="tStartExpectation" destination="zIJ-Dm-Vbf" id="eOI-xf-7g3"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

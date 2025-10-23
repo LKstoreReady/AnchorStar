@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeTranslateOrder" customModule="WallCall">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeTranslateOrder" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -87,9 +87,9 @@
             <connections>
                 <outlet property="eNewPeople" destination="U5M-OE-TzB" id="AUS-Q5-zPm"/>
                 <outlet property="hForMarker" destination="mXw-Z5-x1T" id="Kry-Mx-kAN"/>
+                <outlet property="lSurfaceHandler" destination="DDh-ww-ZY3" id="msf-al-T1g"/>
                 <outlet property="oTargetTimestamp" destination="Tda-z5-wVu" id="iqm-Ic-hVA"/>
                 <outlet property="wLayoutFacilitator" destination="JHA-fC-Py5" id="u2x-em-rod"/>
-                <outlet property="lSurfaceHandler" destination="DDh-ww-ZY3" id="msf-al-T1g"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

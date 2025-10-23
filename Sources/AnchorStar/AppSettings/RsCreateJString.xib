@@ -8,15 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RsCreateJString" customModule="WallCall">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RsCreateJString" customModule="AnchorStar">
             <connections>
+                <outlet property="aCleverMerge" destination="T7x-w4-AOB" id="Bi0-ri-eDm"/>
                 <outlet property="cUniqueData" destination="Wwz-rh-h8X" id="RaI-Fn-YEP"/>
-                <outlet property="zPrecomputedItems" destination="GD9-Eb-NSY" id="OKD-Uv-Rgi"/>
+                <outlet property="hCheckSimplex" destination="ykw-Tj-Oqb" id="QRs-aw-Nkt"/>
+                <outlet property="sSortedLayers" destination="CPk-0x-TSz" id="icz-oE-RqI"/>
                 <outlet property="tMenuSession" destination="iN0-l3-epB" id="qyt-Ml-xYB"/>
                 <outlet property="yAppendingKey" destination="TsR-ry-ojq" id="cVQ-uG-Uob"/>
-                <outlet property="sSortedLayers" destination="CPk-0x-TSz" id="icz-oE-RqI"/>
-                <outlet property="hCheckSimplex" destination="ykw-Tj-Oqb" id="QRs-aw-Nkt"/>
-                <outlet property="aCleverMerge" destination="T7x-w4-AOB" id="Bi0-ri-eDm"/>
+                <outlet property="zPrecomputedItems" destination="GD9-Eb-NSY" id="OKD-Uv-Rgi"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

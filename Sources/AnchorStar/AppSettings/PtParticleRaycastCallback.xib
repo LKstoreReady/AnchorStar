@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="403" id="KGk-i7-Jjw" customClass="PtParticleRaycastCallback" customModule="WallCall">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="403" id="KGk-i7-Jjw" customClass="PtParticleRaycastCallback" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="381" height="398"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -288,25 +288,25 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="gExposureLevel" destination="IGO-2o-XHW" id="YqR-Zo-p0Q"/>
-                <outlet property="rCalcData" destination="3Sb-JX-95V" id="iSE-dx-bk3"/>
-                <outlet property="dTextData" destination="63I-uy-Hxs" id="Px9-WZ-gCq"/>
                 <outlet property="aDeployedTooltip" destination="3XN-kN-i13" id="vas-6a-jAD"/>
-                <outlet property="vNorOffset" destination="2sM-ZV-MFD" id="jxf-Js-bLz"/>
-                <outlet property="iVariableDeclarator" destination="m76-Fy-GdO" id="FMc-Hz-uLS"/>
-                <outlet property="aNativeScale" destination="Olp-If-4g7" id="DpD-DV-tWp"/>
-                <outlet property="rWithYear" destination="fAM-a2-KcK" id="Yca-nJ-x7a"/>
-                <outlet property="fAutoDevice" destination="89u-SU-d97" id="DGA-Om-Wjq"/>
-                <outlet property="bClearDictionary" destination="OdB-v2-tub" id="pmT-Tx-lm1"/>
-                <outlet property="iBarIndicator" destination="egN-ZO-ExD" id="mNs-7P-R0j"/>
-                <outlet property="wWithHeights" destination="o7W-Ra-OBW" id="u5y-jN-Jgx"/>
-                <outlet property="iOpaqueData" destination="QcZ-3g-hhg" id="Oa8-Tq-19W"/>
-                <outlet property="xFieldProperties" destination="6cz-Ry-gL2" id="A6F-pa-Oaq"/>
-                <outlet property="iTimestampText" destination="eG3-lK-zHF" id="kFw-eQ-hMK"/>
                 <outlet property="aGroupID" destination="eoU-Z0-Dpr" id="WJH-y3-wtX"/>
+                <outlet property="aNativeScale" destination="Olp-If-4g7" id="DpD-DV-tWp"/>
+                <outlet property="bClearDictionary" destination="OdB-v2-tub" id="pmT-Tx-lm1"/>
+                <outlet property="dTextData" destination="63I-uy-Hxs" id="Px9-WZ-gCq"/>
+                <outlet property="fAutoDevice" destination="89u-SU-d97" id="DGA-Om-Wjq"/>
+                <outlet property="gExposureLevel" destination="IGO-2o-XHW" id="YqR-Zo-p0Q"/>
+                <outlet property="iBarIndicator" destination="egN-ZO-ExD" id="mNs-7P-R0j"/>
+                <outlet property="iOpaqueData" destination="QcZ-3g-hhg" id="Oa8-Tq-19W"/>
+                <outlet property="iTimestampText" destination="eG3-lK-zHF" id="kFw-eQ-hMK"/>
+                <outlet property="iVariableDeclarator" destination="m76-Fy-GdO" id="FMc-Hz-uLS"/>
                 <outlet property="jSndSubscription" destination="EZv-82-JPI" id="Sz4-gH-PLs"/>
+                <outlet property="rCalcData" destination="3Sb-JX-95V" id="iSE-dx-bk3"/>
+                <outlet property="rWithYear" destination="fAM-a2-KcK" id="Yca-nJ-x7a"/>
+                <outlet property="vNorOffset" destination="2sM-ZV-MFD" id="jxf-Js-bLz"/>
                 <outlet property="wNoMatch" destination="YkS-xP-4ZM" id="Qlf-YJ-iqi"/>
                 <outlet property="wTexturePacks" destination="kxA-4E-0w9" id="So7-rO-WLt"/>
+                <outlet property="wWithHeights" destination="o7W-Ra-OBW" id="u5y-jN-Jgx"/>
+                <outlet property="xFieldProperties" destination="6cz-Ry-gL2" id="A6F-pa-Oaq"/>
             </connections>
             <point key="canvasLocation" x="176.33587786259542" y="114.78873239436621"/>
         </tableViewCell>

@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtGetDataReader" customModule="WallCall">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtGetDataReader" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="143" height="113"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -85,10 +85,10 @@
             </constraints>
             <size key="customSize" width="143" height="113"/>
             <connections>
-                <outlet property="oVideoTexture" destination="oGe-H9-9Z9" id="xVf-du-5is"/>
                 <outlet property="jFromAci" destination="nxl-Hs-Pgh" id="I8E-Sk-ckd"/>
                 <outlet property="nRailItem" destination="bRb-q2-fXj" id="xRL-OW-gmz"/>
                 <outlet property="oFractionVisible" destination="KkW-rP-Q5g" id="b9N-qD-3T0"/>
+                <outlet property="oVideoTexture" destination="oGe-H9-9Z9" id="xVf-du-5is"/>
             </connections>
             <point key="canvasLocation" x="200.76335877862596" y="10.91549295774648"/>
         </collectionViewCell>

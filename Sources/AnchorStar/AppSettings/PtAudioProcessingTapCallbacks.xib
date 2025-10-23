@@ -8,14 +8,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtAudioProcessingTapCallbacks" customModule="WallCall">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtAudioProcessingTapCallbacks" customModule="AnchorStar">
             <connections>
                 <outlet property="bSetIndices" destination="LFl-sM-vWc" id="K1H-Wz-OR2"/>
-                <outlet property="sFromTable" destination="z4P-wT-bnU" id="yEb-TK-ygd"/>
-                <outlet property="mTakeLast" destination="tZg-gY-WBc" id="lTc-8x-CPC"/>
                 <outlet property="jWithRank" destination="hyD-rP-ALw" id="OJ8-Bp-Me0"/>
                 <outlet property="kServerTiming" destination="qfd-f7-6nS" id="fpS-Cr-IBD"/>
                 <outlet property="mIgnoreException" destination="zJd-4u-fYv" id="7fM-oq-xyF"/>
+                <outlet property="mTakeLast" destination="tZg-gY-WBc" id="lTc-8x-CPC"/>
+                <outlet property="sFromTable" destination="z4P-wT-bnU" id="yEb-TK-ygd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -13,22 +13,22 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RsInfoMessageUserInfoKeyChangePhoneNumberUuid" customModule="WallCall">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RsInfoMessageUserInfoKeyChangePhoneNumberUuid" customModule="AnchorStar">
             <connections>
-                <outlet property="wAlreadyMounted" destination="gUB-w3-5QI" id="VbT-t7-mFf"/>
-                <outlet property="vSubStep" destination="o76-50-eB1" id="igD-hm-BEw"/>
-                <outlet property="lOrderBy" destination="rSP-A6-8Tv" id="aOR-hl-7cM"/>
-                <outlet property="aRangeInput" destination="c3V-iv-nMu" id="aNw-ll-p6l"/>
-                <outlet property="sResampleQuality" destination="on4-bZ-DZ7" id="M7N-uC-yXR"/>
+                <outlet property="aAllEvents" destination="AnM-AN-LZ9" id="CDb-A6-iNt"/>
                 <outlet property="aInfoGlobal" destination="c2D-OP-OzY" id="CWW-7O-DPg"/>
-                <outlet property="gPrintProperties" destination="Z4K-9I-s9G" id="FEy-hI-Vbv"/>
+                <outlet property="aRangeInput" destination="c3V-iv-nMu" id="aNw-ll-p6l"/>
                 <outlet property="dFromVec" destination="NrX-Ox-WBj" id="plG-cK-vZO"/>
+                <outlet property="gPrintProperties" destination="Z4K-9I-s9G" id="FEy-hI-Vbv"/>
+                <outlet property="lOrderBy" destination="rSP-A6-8Tv" id="aOR-hl-7cM"/>
+                <outlet property="mAddressParts" destination="4WH-Yx-jZa" id="93r-60-r0r"/>
+                <outlet property="mPriceLabel" destination="jud-dP-OHL" id="fLj-bf-hAo"/>
+                <outlet property="sResampleQuality" destination="on4-bZ-DZ7" id="M7N-uC-yXR"/>
+                <outlet property="vSubStep" destination="o76-50-eB1" id="igD-hm-BEw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wAlreadyMounted" destination="gUB-w3-5QI" id="VbT-t7-mFf"/>
                 <outlet property="xPasteboardType" destination="4eE-HP-yPQ" id="sdJ-CS-Rh9"/>
                 <outlet property="yGenerateKey" destination="CQB-5j-hfG" id="S5s-X1-3LC"/>
-                <outlet property="aAllEvents" destination="AnM-AN-LZ9" id="CDb-A6-iNt"/>
-                <outlet property="mPriceLabel" destination="jud-dP-OHL" id="fLj-bf-hAo"/>
-                <outlet property="mAddressParts" destination="4WH-Yx-jZa" id="93r-60-r0r"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -62,10 +62,10 @@
                     <rect key="frame" x="0.0" y="59" width="301" height="39"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yn1-L1-X7T">
-                            <rect key="frame" x="0.0" y="0.0" width="370" height="39"/>
+                            <rect key="frame" x="0.0" y="0.0" width="322" height="39"/>
                             <subviews>
                                 <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="on4-bZ-DZ7">
-                                    <rect key="frame" x="20" y="0.0" width="92" height="39"/>
+                                    <rect key="frame" x="20" y="0.0" width="75" height="39"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="39" id="n0W-u6-YpP"/>
                                     </constraints>
@@ -79,7 +79,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jud-dP-OHL">
-                                    <rect key="frame" x="228" y="0.0" width="41" height="39"/>
+                                    <rect key="frame" x="194" y="0.0" width="37" height="39"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="39" id="tb6-H9-A1M"/>
                                     </constraints>
@@ -93,7 +93,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2D-OP-OzY">
-                                    <rect key="frame" x="287" y="0.0" width="63" height="39"/>
+                                    <rect key="frame" x="249" y="0.0" width="53" height="39"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="39" id="gOI-jT-RgA"/>
                                     </constraints>

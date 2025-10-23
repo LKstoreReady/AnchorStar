@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RsSetVisible" customModule="WallCall">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RsSetVisible" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="407" height="200"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -239,16 +239,16 @@
             </constraints>
             <size key="customSize" width="407" height="200"/>
             <connections>
-                <outlet property="hAndroidExt" destination="gfK-FH-Gfv" id="Z71-zw-JSy"/>
-                <outlet property="dHoldtimeMs" destination="3b7-zr-lCV" id="qiR-Qp-QZm"/>
-                <outlet property="pToothWidth" destination="T8L-PC-87T" id="uJY-N4-euf"/>
-                <outlet property="sSetNation" destination="sCF-PY-QU1" id="s5G-58-HHG"/>
-                <outlet property="qFrozenRealm" destination="6SK-Z7-4l8" id="zJ7-Am-ohm"/>
-                <outlet property="qDotType" destination="5Wc-0v-Qce" id="Mnc-4y-MVU"/>
-                <outlet property="eSmallerAxis" destination="Bd9-oK-68Y" id="WTk-1c-4JH"/>
                 <outlet property="aAttitudesCount" destination="KPq-iU-Gbc" id="WX7-TK-YTY"/>
-                <outlet property="gGroupInvite" destination="7zk-wu-HOJ" id="Mu5-Lx-7O2"/>
+                <outlet property="dHoldtimeMs" destination="3b7-zr-lCV" id="qiR-Qp-QZm"/>
+                <outlet property="eSmallerAxis" destination="Bd9-oK-68Y" id="WTk-1c-4JH"/>
                 <outlet property="fStickerItem" destination="JFm-8b-4h1" id="Cpv-TP-Wh0"/>
+                <outlet property="gGroupInvite" destination="7zk-wu-HOJ" id="Mu5-Lx-7O2"/>
+                <outlet property="hAndroidExt" destination="gfK-FH-Gfv" id="Z71-zw-JSy"/>
+                <outlet property="pToothWidth" destination="T8L-PC-87T" id="uJY-N4-euf"/>
+                <outlet property="qDotType" destination="5Wc-0v-Qce" id="Mnc-4y-MVU"/>
+                <outlet property="qFrozenRealm" destination="6SK-Z7-4l8" id="zJ7-Am-ohm"/>
+                <outlet property="sSetNation" destination="sCF-PY-QU1" id="s5G-58-HHG"/>
             </connections>
             <point key="canvasLocation" x="196.18320610687022" y="33.098591549295776"/>
         </collectionViewCell>

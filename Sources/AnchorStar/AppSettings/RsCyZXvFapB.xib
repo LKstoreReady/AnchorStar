@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RsCyZXvFapB" customModule="WallCall">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RsCyZXvFapB" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="224" height="208"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -321,18 +321,18 @@
             </constraints>
             <size key="customSize" width="224" height="208"/>
             <connections>
-                <outlet property="sSetCity" destination="pKy-WQ-kpc" id="e31-A5-yLl"/>
-                <outlet property="rSetNative" destination="wWV-R3-QjG" id="o8Z-fM-V5c"/>
+                <outlet property="dFromValues" destination="E1g-eM-uUa" id="oLM-sB-xxL"/>
+                <outlet property="eFromLegend" destination="bmX-ln-lJ9" id="nC0-fl-JU6"/>
+                <outlet property="fBackupRequest" destination="Jns-RE-sdT" id="zd2-ys-xS7"/>
+                <outlet property="iScriptDelegate" destination="0mp-b1-N9r" id="tKT-bu-BEl"/>
+                <outlet property="jRegisterComponent" destination="FP4-mX-Lsk" id="63S-mN-NQe"/>
+                <outlet property="jTooltipFrame" destination="EKC-8l-G3r" id="JSg-O9-9Yw"/>
                 <outlet property="mCameraSorter" destination="qHV-lb-ScJ" id="Wff-FG-4Lq"/>
+                <outlet property="rSetNative" destination="wWV-R3-QjG" id="o8Z-fM-V5c"/>
+                <outlet property="sSetCity" destination="pKy-WQ-kpc" id="e31-A5-yLl"/>
+                <outlet property="uExitedView" destination="0Us-0K-Q4f" id="XUD-wr-4xw"/>
                 <outlet property="vVidHeight" destination="Qv9-wU-X6j" id="gjn-1l-GqS"/>
                 <outlet property="ySharedColor" destination="bum-eF-jOe" id="BSu-hf-RUI"/>
-                <outlet property="jTooltipFrame" destination="EKC-8l-G3r" id="JSg-O9-9Yw"/>
-                <outlet property="fBackupRequest" destination="Jns-RE-sdT" id="zd2-ys-xS7"/>
-                <outlet property="dFromValues" destination="E1g-eM-uUa" id="oLM-sB-xxL"/>
-                <outlet property="iScriptDelegate" destination="0mp-b1-N9r" id="tKT-bu-BEl"/>
-                <outlet property="uExitedView" destination="0Us-0K-Q4f" id="XUD-wr-4xw"/>
-                <outlet property="jRegisterComponent" destination="FP4-mX-Lsk" id="63S-mN-NQe"/>
-                <outlet property="eFromLegend" destination="bmX-ln-lJ9" id="nC0-fl-JU6"/>
             </connections>
             <point key="canvasLocation" x="262.59541984732823" y="23.239436619718312"/>
         </collectionViewCell>

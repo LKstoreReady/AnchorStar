@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RsTitleViewRotationDirection" id="gTV-IL-0wX" customClass="RsTitleViewRotationDirection" customModule="WallCall">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RsTitleViewRotationDirection" id="gTV-IL-0wX" customClass="RsTitleViewRotationDirection" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="74" height="103"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -112,8 +112,8 @@
             <size key="customSize" width="87" height="148"/>
             <connections>
                 <outlet property="dDiameter" destination="K5Q-9b-Gtv" id="ilW-K8-0xV"/>
-                <outlet property="jHasChanges" destination="ueL-fE-C9Z" id="GNZ-ug-r1W"/>
                 <outlet property="dDictBuilder" destination="wOc-0J-yQF" id="sg0-Fp-A9x"/>
+                <outlet property="jHasChanges" destination="ueL-fE-C9Z" id="GNZ-ug-r1W"/>
                 <outlet property="kUpdateAxis" destination="vg4-gK-IaE" id="Jl9-CQ-iV1"/>
                 <outlet property="xCurLocation" destination="u9r-Ps-tgz" id="eCU-eR-49A"/>
             </connections>

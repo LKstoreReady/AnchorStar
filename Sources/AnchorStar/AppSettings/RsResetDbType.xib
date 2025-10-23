@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="221" id="KGk-i7-Jjw" customClass="RsResetDbType" customModule="WallCall">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="221" id="KGk-i7-Jjw" customClass="RsResetDbType" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="476" height="221"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -260,16 +260,16 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="bFileSize" destination="7Pr-ju-atl" id="rPs-wx-bBR"/>
+                <outlet property="dDirectionPriority" destination="AGT-fa-Nyf" id="y7c-9I-PNZ"/>
                 <outlet property="iCustomSounds" destination="xw5-Se-YWD" id="G0M-cs-CV4"/>
                 <outlet property="qWithArgs" destination="Zw4-W0-GCs" id="XMY-D3-17S"/>
-                <outlet property="vWorkletService" destination="Jqy-2d-pVg" id="12b-gX-CIz"/>
-                <outlet property="tResponseArray" destination="hHp-bi-rQC" id="Vd9-OM-wNp"/>
                 <outlet property="rImportLocation" destination="Ri6-cz-T21" id="vp6-ub-bqL"/>
-                <outlet property="tOutlinedTv" destination="XY2-UO-BhF" id="DT7-uZ-VdO"/>
-                <outlet property="yScalingCount" destination="0hg-dD-6mW" id="mHm-US-9sl"/>
-                <outlet property="dDirectionPriority" destination="AGT-fa-Nyf" id="y7c-9I-PNZ"/>
-                <outlet property="bFileSize" destination="7Pr-ju-atl" id="rPs-wx-bBR"/>
                 <outlet property="tIntroStack" destination="VHk-lT-v1q" id="8rl-57-irc"/>
+                <outlet property="tOutlinedTv" destination="XY2-UO-BhF" id="DT7-uZ-VdO"/>
+                <outlet property="tResponseArray" destination="hHp-bi-rQC" id="Vd9-OM-wNp"/>
+                <outlet property="vWorkletService" destination="Jqy-2d-pVg" id="12b-gX-CIz"/>
+                <outlet property="yScalingCount" destination="0hg-dD-6mW" id="mHm-US-9sl"/>
             </connections>
             <point key="canvasLocation" x="203.0534351145038" y="51.056338028169016"/>
         </tableViewCell>

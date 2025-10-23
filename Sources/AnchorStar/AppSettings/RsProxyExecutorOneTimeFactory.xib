@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RsProxyExecutorOneTimeFactory" customModule="WallCall">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RsProxyExecutorOneTimeFactory" customModule="AnchorStar">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -175,13 +175,13 @@
                 <constraint firstItem="5KM-JR-H2e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uc1-YN-MZB"/>
             </constraints>
             <connections>
-                <outlet property="dDiameter" destination="d5a-Mp-mtb" id="rNJ-Vr-oDc"/>
-                <outlet property="tMatCelebration" destination="cYn-3I-0Cl" id="APN-F6-kfy"/>
-                <outlet property="dAttributeClass" destination="wQk-Io-z3u" id="gRr-kg-CdY"/>
                 <outlet property="bCanRevoke" destination="Sq7-yZ-dfa" id="XmI-GA-KH7"/>
+                <outlet property="dAttributeClass" destination="wQk-Io-z3u" id="gRr-kg-CdY"/>
+                <outlet property="dDiameter" destination="d5a-Mp-mtb" id="rNJ-Vr-oDc"/>
                 <outlet property="fGenerateGain" destination="kWZ-1e-n1f" id="OAn-v7-m9K"/>
                 <outlet property="fMeshDatas" destination="WfT-ES-b9g" id="jam-Xk-7mf"/>
                 <outlet property="rSetNative" destination="ldV-AK-UPX" id="0pz-HT-zdn"/>
+                <outlet property="tMatCelebration" destination="cYn-3I-0Cl" id="APN-F6-kfy"/>
             </connections>
             <point key="canvasLocation" x="132" y="-32"/>
         </view>
