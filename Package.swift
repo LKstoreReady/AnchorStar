@@ -16,7 +16,6 @@ let package = Package(
             targets: ["AnchorStar"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", branch: "lite_iOS"),
         .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .exact("4.6.0")),
         .package(url: "https://github.com/LKstoreReady/CKStar", .upToNextMajor(from: "1.0.2")),
         .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.2")),
@@ -37,7 +36,6 @@ let package = Package(
                 .product(name: "NKWorking", package: "NKWorking"),
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "CryptoSwift", package: "CryptoSwift"),
-                .product(name: "AgoraRTM", package: "AgoraRtm_Apple"),
                 .product(name: "MJRefresh", package: "MJRefresh"),
                 .product(name: "IMLibCore", package: "RongCloudIM-iOS"),
             ]

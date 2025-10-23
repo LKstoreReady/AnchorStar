@@ -1,5 +1,5 @@
 {
-  "originHash" : "9f42f07b92e659af9d786c8a17559377a4d4944acd5b337009ba0d68013b71d6",
+  "originHash" : "e2bc5a7dcc53d5cc19a6af773003264145e79ecbffc4962af9e8dec5b3568584",
   "pins" : [
     {
       "identity" : "adjust_signature_sdk",
@@ -26,15 +26,6 @@
       "state" : {
         "revision" : "c1224ad3e316db15a4ac48a6ff08208f7bcf5238",
         "version" : "4.6.0"
-      }
-    },
-    {
-      "identity" : "agorartm_apple",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AgoraIO/AgoraRtm_Apple.git",
-      "state" : {
-        "branch" : "lite_iOS",
-        "revision" : "50d6d59cd5a1b11bf7b000d17569c080c492d992"
       }
     },
     {
