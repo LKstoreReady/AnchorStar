@@ -1,7 +1,6 @@
 
 import UIKit
 import AgoraRtcKit
-import AgoraRtmKit
 import RongIMLibCore
 
 class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @preconcurrency AgoraRtcEngineDelegate, @preconcurrency AgoraRtmClientDelegate, UITextFieldDelegate {
