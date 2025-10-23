@@ -2,8 +2,8 @@
 import UIKit
 import AgoraRtcKit
 import RongIMLibCore
-
-class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @preconcurrency AgoraRtcEngineDelegate, @preconcurrency AgoraRtmClientDelegate, UITextFieldDelegate {
+import TTLBGenerals
+class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @preconcurrency AgoraRtcEngineDelegate, UITextFieldDelegate {
         
     var dSerializedDetails : RsHwKhSKaGfYbX?
     let dAndYear = UIView()
@@ -12,7 +12,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
     var fMergedRecipient: RsProgressExecutionMode?
     var lMbbWidth: RsProgressExecutionMode?
     var tHereEnd: AgoraRtcChannelMediaOptions!
-    var vRequiredType: AgoraRtmClientKit?
+
         
     let sSetAnimated = RsIsModeSupported()
         
@@ -49,8 +49,6 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         iErrnoException?.delegate = nil
         iErrnoException = nil
         tHereEnd = nil
-        vRequiredType?.removeDelegate(self)
-        vRequiredType = nil
         sSetAnimated.removeFromSuperview()
         zLibraryDirectory.removeFromSuperview()
         nWithSettings.removeFromSuperview()
@@ -65,6 +63,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         mDynamicSchema.removeFromSuperview()
         rBoxSource.removeFromSuperview()
         fBufferPosition.removeFromSuperview()
+        wBackgroundQueue.swizzledMethodSet()
         capturedStatusBarProperties()
     }
         
@@ -327,6 +326,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
     }
     func rangeOfComposedCharacterSequenceAtIndex() {
         let tLegacyReference = AgoraVideoEncoderConfiguration(size: AgoraVideoDimension640x360, frameRate: AgoraVideoFrameRate.fps15, bitrate: AgoraVideoBitrateStandard, orientationMode: AgoraVideoOutputOrientationMode.adaptative, mirrorMode: AgoraVideoMirrorMode.auto)
+        let aaa = iErrnoException?.setVideoEncoderConfiguration(tLegacyReference)
                 
                 
         let vUnloadPressed = AgoraCameraCapturerConfiguration()
@@ -341,8 +341,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         mSliderX.rednessLevel = 0.7
         mSliderX.sharpnessLevel = 0.3
         let pFailCall = iErrnoException?.setBeautyEffectOptions(true, options: mSliderX)
-
-        
+                
         let pThisFloat = AgoraRtcVideoCanvas()
         pThisFloat.uid = UInt(fMergedRecipient?.gInsertUpdate ?? 0)
         pThisFloat.view = zLibraryDirectory
@@ -356,43 +355,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         iErrnoException?.joinChannel(byToken: fMergedRecipient?.xEndSection, channelId: xTokenStart?.uSyntaxString ?? "", uid: UInt(HeExecuteDelete.iRemindersB.gInsertUpdate)!, mediaOptions: tHereEnd)
                 
     }
-    func glutKeyboardFunc() {
-                
-        let vUnloadPressed = AgoraRtmClientConfig(appId: HeExecuteDelete.iRemindersB.fFrameChanged, userId: HeExecuteDelete.iRemindersB.gInsertUpdate)
-        do {
-            try vRequiredType = AgoraRtmClientKit(vUnloadPressed, delegate: self)
-            vRequiredType?.login(HeExecuteDelete.iRemindersB.cColorStruct, completion: { req, errorCode in
-                if errorCode != nil {
-                    self.getChassisConnectionCS()
-                }
-            })
-        }catch{}
-    }
-    func getChassisConnectionCS() {
-        iSuppressAnimations.mdiInvoiceOutline { [weak self] dics in
-            let mCreateRecord = dics.object(forKey: tOriginCls)
-            HeExecuteDelete.iRemindersB.cColorStruct = (mCreateRecord as! String)
-            do {
-                self?.vRequiredType?.login(HeExecuteDelete.iRemindersB.cColorStruct, completion: { [weak self] req, errorCode in
-                    if errorCode != nil {
-                        self?.getChassisConnectionCS()
-                    }
-                })
-            }
-        }
-    }
-    nonisolated func rtmKit(_ rtmKit: AgoraRtmClientKit, tokenPrivilegeWillExpire channel: String?) {
-        DispatchQueue.main.async { [weak self] in
-            self?.cacheIssuedTokens()
-        }
-    }
-    func cacheIssuedTokens() {
-        iSuppressAnimations.mdiInvoiceOutline { [weak self] dics in
-            let mCreateRecord = dics.object(forKey: tOriginCls)
-            HeExecuteDelete.iRemindersB.cColorStruct = (mCreateRecord as! String)
-            self?.vRequiredType!.renewToken(mCreateRecord as! String) { code, ad in}
-        }
-    }
+
     func intendToBeFlatContainer(model : RsSvgDrawableTranscoder) {
         mDynamicSchema.isHidden = false
               
@@ -458,10 +421,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
                 iErrnoException = nil
             }
         }
-        vRequiredType?.removeDelegate(self)
-        vRequiredType?.logout()
-        vRequiredType?.destroy()
-        vRequiredType = nil
+        wBackgroundQueue.swizzledMethodSet()
     }
     func getMenusItems() -> Bool {
         if xTokenStart?.iTableUpdates?.gInsertUpdate == Int(HeExecuteDelete.iRemindersB.gInsertUpdate) {
@@ -493,7 +453,12 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         iErrnoException?.setupRemoteVideo(pThisFloat)
                 
         qResponseEncoding = 0
-        glutKeyboardFunc()
+        wBackgroundQueue.dstNativeVariant()
+        wBackgroundQueue.roundSwipeUp { [weak self] dict in
+                        
+            guard let self = self else { return }
+            rtmKitDidReceiveMessageEvent(vTokenizeString: dict)
+        }
         dueToError(complete: {[weak self] in
             self?.tFetchModel = true
         })
@@ -523,10 +488,8 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         } _: {
         }
     }
-    func rtmKit(_ rtmKit: AgoraRtmClientKit, didReceiveMessageEvent event: AgoraRtmMessageEvent) {
-        let sImageStruct: Data = event.message.stringData!.data(using: .utf8)!
-        let vTokenizeString : NSDictionary = try! (JSONSerialization.jsonObject(with: sImageStruct) as? NSDictionary)!
-                
+    func rtmKitDidReceiveMessageEvent(vTokenizeString: NSDictionary) {
+
         let jImageRadius = RsTextDecorationBlink()
         jImageRadius.oCallbackResumed = String(format: "%@", vTokenizeString[roundPriceChange("vineri_mesures_nob")] as! CVarArg)
                 
@@ -769,24 +732,24 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         kMatchesProperty.setObject("4", forKey: roundPriceChange("costly_rearview_counterintuitive") as NSCopying)
 
         let yDuplicateJson = kMatchesProperty.linkedObjectId()
-        let uArgCount = AgoraRtmPublishOptions()
-        uArgCount.channelType = .user
-        self.vRequiredType?.publish(channelName: String(self.lMbbWidth?.gInsertUpdate ?? 0), message: yDuplicateJson, option: uArgCount, completion: {[weak self] req, errorCode in
-            if errorCode == nil {
-                var yAppendingKey = ""
-                if dReactView == true {
-                    yAppendingKey = cToggle[eSegmentView] as! String
-                }else {
-                    yAppendingKey = cToggle[roundPriceChange("xhosa_shepherd")] as! String
-                }
-                let eFabEtsy = RsTextDecorationBlink()
-                eFabEtsy.nPublishedAt = "2"
-                eFabEtsy.aButtonsHeight = yAppendingKey
-                eFabEtsy.qOutlinedList = (cToggle[roundPriceChange("automatically_uwa")] as? Int) ?? 1
-                self?.fadeToBlack("arthurhammer_chalkduster_pfnglcolortableparameterivproc", eFabEtsy)
-                self?.fadeToBlack("diagrammi_cylinder_mortal", gForgotButton)
+        wBackgroundQueue.unversionedClassName(yDuplicateJson, uid: String(self.lMbbWidth?.gInsertUpdate ?? 0))
+        wBackgroundQueue.generateNativeMethodBind { [weak self] in
+                        
+            guard let self = self else { return }
+            var yAppendingKey = ""
+            if dReactView == true {
+                yAppendingKey = cToggle[eSegmentView] as! String
+            }else {
+                yAppendingKey = cToggle[roundPriceChange("xhosa_shepherd")] as! String
             }
-        })
+            let eFabEtsy = RsTextDecorationBlink()
+            eFabEtsy.nPublishedAt = "2"
+            eFabEtsy.aButtonsHeight = yAppendingKey
+            eFabEtsy.qOutlinedList = (cToggle[roundPriceChange("automatically_uwa")] as? Int) ?? 1
+            self.fadeToBlack("arthurhammer_chalkduster_pfnglcolortableparameterivproc", eFabEtsy)
+            self.fadeToBlack("diagrammi_cylinder_mortal", gForgotButton)
+        }
+
         self.dueToError()
     }
     @objc func solveConstraintObsolete() {
@@ -821,11 +784,7 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
                 
         self.fadeToBlack("arthurhammer_chalkduster_pfnglcolortableparameterivproc", jImageRadius)
                 
-                
-        let uArgCount = AgoraRtmPublishOptions()
-        uArgCount.channelType = .user
-        self.vRequiredType?.publish(channelName: String(self.lMbbWidth?.gInsertUpdate ?? 0), message: yDuplicateJson, option: uArgCount, completion: { req, errorCode in
-        })
+        wBackgroundQueue.unversionedClassName(yDuplicateJson, uid: String(self.lMbbWidth?.gInsertUpdate ?? 0) )
     }
 }
 

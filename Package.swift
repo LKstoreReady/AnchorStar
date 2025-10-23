@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .exact("4.6.0")),
         .package(url: "https://github.com/LKstoreReady/CKStar", .upToNextMajor(from: "1.0.2")),
-        .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.2")),
+        .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.6")),
         .package(url: "https://github.com/LKstoreReady/NKWorking", .upToNextMajor(from: "1.0.1")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.10.2")),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.9.0"),

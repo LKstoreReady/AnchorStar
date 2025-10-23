@@ -150,8 +150,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/TTLBGenerals",
       "state" : {
-        "revision" : "6805b6640dbb3ce218c63393fb3bf48248edce38",
-        "version" : "1.0.3"
+        "revision" : "1b9e3d874280cd7f03325950679519eaf7d29674",
+        "version" : "1.0.6"
       }
     }
   ],

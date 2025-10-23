@@ -89,6 +89,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
             iSuppressAnimations.permissionsToRequest { array in
                                 
                 if self.tabBarController?.selectedIndex == 0 {
+                    print("`````````````````wall reload section 2")
                     self.xSelfBounds = HeArgumentsFeature.performBlockAndWait(array)
                     if self.xSelfBounds.count < 2 {
                         self.xSelfBounds = NSArray()
@@ -286,6 +287,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
                 fEnsureObserved.vHasGroove = xBiSubstack?.width ?? 52
                 self.kCustomValue.append(fEnsureObserved)
             }
+            print("`````````````````wall reload section 1")
             CATransaction.begin()
             CATransaction.setDisableActions(true)
             self.wAlreadyMounted.reloadData()
@@ -488,6 +490,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
         gPrintProperties.reloadData()
     }
     @objc func willDisplayNode() {
+        print("`````````````````wall reload section 0")
         if lGetLife != nil {
             CATransaction.begin()
             CATransaction.setDisableActions(true)
@@ -508,6 +511,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
             nCompositeKey.removeAllObjects()
                     
             bMdiSpray.removeAll()
+            print("`````````````````wall reload section 333")
             CATransaction.begin()
             CATransaction.setDisableActions(true)
             self.wAlreadyMounted.reloadData()
@@ -547,6 +551,7 @@ class HeRepository: RsInfoMessageUserInfoKeyChangePhoneNumberUuid {
                 self.kRunThread = 1
                 self.cItemInserted = mdl.gInsertUpdate!
                 self.requestAndDeniedPermissions(true)
+                print("`````````````````wall reload section 33")
                 CATransaction.begin()
                 CATransaction.setDisableActions(true)
                 self.wAlreadyMounted.reloadData()
