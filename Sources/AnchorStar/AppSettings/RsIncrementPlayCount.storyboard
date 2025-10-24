@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-                
+        <!--Rs MpbX WemuF TwvHK-->
         <scene sceneID="GvS-Cc-adR">
             <objects>
-                <viewController storyboardIdentifier="RsMpbXWemuFTwvHK" hidesBottomBarWhenPushed="YES" id="2gT-5k-24S" customClass="RsMpbXWemuFTwvHK" customModule="WallCall" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RsMpbXWemuFTwvHK" hidesBottomBarWhenPushed="YES" id="2gT-5k-24S" customClass="RsMpbXWemuFTwvHK" customModule="AnchorStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AX7-QK-GP0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -464,16 +464,16 @@
                                                 </tableViewCellContentView>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <outlet property="wSharpPlace" destination="bma-bc-yHY" id="rJt-dI-WfC"/>
-                                                    <outlet property="hInstallCode" destination="yqe-7A-Fum" id="EKa-TV-Q6c"/>
+                                                    <outlet property="aDateFrom" destination="1CH-Y2-KrM" id="VYZ-bl-6m8"/>
                                                     <outlet property="bEffectsAmount" destination="Gqk-l5-oWG" id="UuN-zb-zHc"/>
                                                     <outlet property="gVerifyThread" destination="HbS-h8-SlD" id="g8h-42-1t3"/>
+                                                    <outlet property="hInstallCode" destination="yqe-7A-Fum" id="EKa-TV-Q6c"/>
                                                     <outlet property="lResName" destination="Ufm-Ct-uw7" id="qRt-PV-olv"/>
-                                                    <outlet property="aDateFrom" destination="1CH-Y2-KrM" id="VYZ-bl-6m8"/>
                                                     <outlet property="lZipQuery" destination="dkO-uJ-caW" id="VOC-bJ-rjg"/>
-                                                    <outlet property="wJsWatch" destination="fUI-FW-GOu" id="ZRl-Y5-YQe"/>
-                                                    <outlet property="zAppLabel" destination="NwO-fU-NmG" id="L6d-0G-zlH"/>
                                                     <outlet property="mRouterIdentifier" destination="HbK-DQ-MPr" id="nRx-mK-chX"/>
+                                                    <outlet property="wJsWatch" destination="fUI-FW-GOu" id="ZRl-Y5-YQe"/>
+                                                    <outlet property="wSharpPlace" destination="bma-bc-yHY" id="rJt-dI-WfC"/>
+                                                    <outlet property="zAppLabel" destination="NwO-fU-NmG" id="L6d-0G-zlH"/>
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>
@@ -530,18 +530,18 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="wArchiveButton" destination="oFN-3k-jlP" id="Z0L-Cw-mhE"/>
-                        <outlet property="tFetchAssets" destination="EmJ-yF-Rah" id="YJh-QG-oW9"/>
-                        <outlet property="hInstallCode" destination="Jus-0l-OYc" id="HOX-Wm-5os"/>
-                        <outlet property="bEffectsAmount" destination="hKi-4q-XEK" id="BAb-td-6d4"/>
-                        <outlet property="gVerifyThread" destination="NWo-Ie-1ZN" id="dhd-La-jfI"/>
-                        <outlet property="lResName" destination="SKI-bH-efA" id="uj7-ZQ-zue"/>
                         <outlet property="aDateFrom" destination="Cng-Xq-ZAJ" id="TeP-T3-Zzt"/>
+                        <outlet property="bEffectsAmount" destination="hKi-4q-XEK" id="BAb-td-6d4"/>
+                        <outlet property="bUpdateBlock" destination="zID-NL-1JO" id="MXP-OC-ohO"/>
+                        <outlet property="gVerifyThread" destination="NWo-Ie-1ZN" id="dhd-La-jfI"/>
+                        <outlet property="hInstallCode" destination="Jus-0l-OYc" id="HOX-Wm-5os"/>
+                        <outlet property="lResName" destination="SKI-bH-efA" id="uj7-ZQ-zue"/>
                         <outlet property="lZipQuery" destination="JNZ-RX-bxq" id="LEP-K9-XKP"/>
+                        <outlet property="mRouterIdentifier" destination="9bW-9r-7ij" id="BPT-WI-PRV"/>
+                        <outlet property="tFetchAssets" destination="EmJ-yF-Rah" id="YJh-QG-oW9"/>
+                        <outlet property="wArchiveButton" destination="oFN-3k-jlP" id="Z0L-Cw-mhE"/>
                         <outlet property="wJsWatch" destination="vB3-0S-FHs" id="UMV-5Y-lDO"/>
                         <outlet property="zAppLabel" destination="ue6-a5-lSR" id="OGm-3s-z49"/>
-                        <outlet property="mRouterIdentifier" destination="9bW-9r-7ij" id="BPT-WI-PRV"/>
-                        <outlet property="bUpdateBlock" destination="zID-NL-1JO" id="MXP-OC-ohO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cM1-Ho-a6i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
