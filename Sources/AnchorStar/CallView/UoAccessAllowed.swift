@@ -734,22 +734,20 @@ class UoAccessAllowed: HeGetRelativePointerIndex, UIGestureRecognizerDelegate, @
         let yDuplicateJson = kMatchesProperty.linkedObjectId()
         wBackgroundQueue.unversionedClassName(yDuplicateJson, uid: String(self.lMbbWidth?.gInsertUpdate ?? 0))
         wBackgroundQueue.generateNativeMethodBind { [weak self] in
-                        
             guard let self = self else { return }
-            var yAppendingKey = ""
-            if dReactView == true {
-                yAppendingKey = cToggle[eSegmentView] as! String
-            }else {
-                yAppendingKey = cToggle[roundPriceChange("xhosa_shepherd")] as! String
-            }
-            let eFabEtsy = RsTextDecorationBlink()
-            eFabEtsy.nPublishedAt = "2"
-            eFabEtsy.aButtonsHeight = yAppendingKey
-            eFabEtsy.qOutlinedList = (cToggle[roundPriceChange("automatically_uwa")] as? Int) ?? 1
-            self.fadeToBlack("arthurhammer_chalkduster_pfnglcolortableparameterivproc", eFabEtsy)
-            self.fadeToBlack("diagrammi_cylinder_mortal", gForgotButton)
         }
-
+        var yAppendingKey = ""
+        if dReactView == true {
+            yAppendingKey = cToggle[eSegmentView] as! String
+        }else {
+            yAppendingKey = cToggle[roundPriceChange("xhosa_shepherd")] as! String
+        }
+        let eFabEtsy = RsTextDecorationBlink()
+        eFabEtsy.nPublishedAt = "2"
+        eFabEtsy.aButtonsHeight = yAppendingKey
+        eFabEtsy.qOutlinedList = (cToggle[roundPriceChange("automatically_uwa")] as? Int) ?? 1
+        self.fadeToBlack("arthurhammer_chalkduster_pfnglcolortableparameterivproc", eFabEtsy)
+        self.fadeToBlack("diagrammi_cylinder_mortal", gForgotButton)
         self.dueToError()
     }
     @objc func solveConstraintObsolete() {
